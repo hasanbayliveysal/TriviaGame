@@ -36,7 +36,7 @@ struct AnswerRow: View {
             }
         }
         //.padding()
-        .frame(maxWidth: .infinity, maxHeight: UIScreen.main.bounds.height*0.05 ,alignment:  .leading)
+        .frame(maxWidth: .infinity, maxHeight: UIScreen.main.bounds.height*0.07 ,alignment:  .leading)
         .background(.white)
         .foregroundColor(trivaVM.answerSelected ? (isSelected ? Color("AccentColor") : .gray) : Color("AccentColor"))
         .cornerRadius(10)
